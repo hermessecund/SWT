@@ -30,7 +30,7 @@ const styles = {
     display: "flex",
     justifyContent: "center",
     fontFamily: "Roboto, sans-serif",
-    color: "#041836",
+    color: "#000000",
     marginTop: "130px",
     padding: "10px",
   },
@@ -38,20 +38,21 @@ const styles = {
     position: "fixed",
     zIndex: 1,
     width: "100%",
-    background: "#fff",
+    background: "#000000",
     display: "flex",
     justifyContent: "space-between",
     alignItems: "center",
     fontFamily: "Roboto, sans-serif",
-    borderBottom: "2px solid rgba(0, 0, 0, 0.06)",
+    borderBottom: "0px solid rgba(0, 0, 0, 0.06)",
     padding: "0 10px",
-    boxShadow: "0 1px 10px rgb(151 164 175 / 10%)",
+    boxShadow: "0 0px 10px rgb(151 164 175 / 10%)",
   },
   headerRight: {
     display: "flex",
     gap: "20px",
     alignItems: "center",
     fontSize: "15px",
+    color: "#ffffff",
     fontWeight: "600",
   },
 };
@@ -70,14 +71,14 @@ const App = ({ isServerInfo }) => {
     <Layout style={{ height: "100vh", overflow: "auto" }}>
       <Router>
         <Header style={styles.header}>
-          <Logo />
+          <Chains />
           <MenuItems />
           <div style={styles.headerRight}>
             <Chains />
             <TokenPrice
-              address="0x1f9840a85d5af5bf1d1762f925bdaddc4201f984"
-              chain="eth"
-              image="https://cloudflare-ipfs.com/ipfs/QmXttGpZrECX5qCyXbBQiqgQNytVGeZW5Anewvh2jc4psg/"
+              address="0x35dc66610123dfae53c8fe8aab75d1a64b989113"
+              chain="bsc"
+              image="https://storage.googleapis.com/coinsniper-assets/images/kipUKl831T4GfAIkxDcKfdNEmq6hrcEgsNrcir6m.png"
               size="40px"
             />
             <NativeBalance />
@@ -87,7 +88,7 @@ const App = ({ isServerInfo }) => {
 
         <div style={styles.content}>
           <Switch>
-            <Route exact path="/quickstart">
+            <Route exact path="/QuickStart">
               <QuickStart isServerInfo={isServerInfo} />
             </Route>
             <Route path="/wallet">
@@ -122,10 +123,10 @@ const App = ({ isServerInfo }) => {
               <Contract />
             </Route>
             <Route path="/">
-              <Redirect to="/quickstart" />
+              <Redirect to="/tokenprice" />
             </Route>
             <Route path="/ethereum-boilerplate">
-              <Redirect to="/quickstart" />
+              <Redirect to="/tokenprice" />
             </Route>
             <Route path="/nonauthenticated">
               <>Please login using the "Authenticate" button</>
@@ -133,38 +134,15 @@ const App = ({ isServerInfo }) => {
           </Switch>
         </div>
       </Router>
-      <Footer style={{ textAlign: "center" }}>
+      <Footer style={{ textAlign: "right" }}>
         <Text style={{ display: "block" }}>
-          ⭐️ Please star this{" "}
+          Decentralized community{" "}
           <a
-            href="https://github.com/ethereum-boilerplate/ethereum-boilerplate/"
+            href="https://hermessecund.com/dato"
             target="_blank"
             rel="noopener noreferrer"
           >
-            boilerplate
-          </a>
-          , every star makes us very happy!
-        </Text>
-
-        <Text style={{ display: "block" }}>
-          🙋 You have questions? Ask them on the {""}
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://forum.moralis.io/t/ethereum-boilerplate-questions/3951/29"
-          >
-            Moralis forum
-          </a>
-        </Text>
-
-        <Text style={{ display: "block" }}>
-          📖 Read more about{" "}
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://moralis.io?utm_source=boilerplatehosted&utm_medium=todo&utm_campaign=ethereum-boilerplat"
-          >
-            Moralis
+            DATO
           </a>
         </Text>
       </Footer>
