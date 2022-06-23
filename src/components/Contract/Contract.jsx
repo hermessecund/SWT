@@ -86,12 +86,12 @@ export default function Contract() {
               const params = forms[name].getFieldsValue();
 
               let isView = false;
-              /*eslint no-unsafe-optional-chaining: "error"*/
+              /*eslint no-unsafe-optional-chaining: "error"
               for (let method of contract?.abi) {
                 if (method.name !== name) continue;
                 console.log(method);
                 if (method.stateMutability === "view") isView = true;
-              }
+              }*/
 
               const options = {
                 contractAddress,
