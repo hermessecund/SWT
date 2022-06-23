@@ -19,7 +19,6 @@ import "antd/dist/antd.css";
 import NativeBalance from "components/NativeBalance";
 import "./style.css";
 import QuickStart from "components/QuickStart";
-import Contract from "components/Contract/Contract";
 import Text from "antd/lib/typography/Text";
 import Ramper from "components/Ramper";
 import MenuItems from "./components/MenuItems";
@@ -118,9 +117,6 @@ const App = ({ isServerInfo }) => {
             </Route>
             <Route path="/nftBalance">
               <NFTBalance />
-            </Route>
-            <Route path="/contract">
-              <Contract />
             </Route>
             <Route path="/">
               <Redirect to="/tokenprice" />
