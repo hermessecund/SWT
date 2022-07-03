@@ -22,28 +22,28 @@ function MenuItems() {
       defaultSelectedKeys={[pathname]}
     >
       <Menu.Item key="/quickstart">
-        <NavLink to="/quickstart"> DeTi/DeFi </NavLink>
+        <NavLink to="/quickstart">🌟 DeTi/DeFi </NavLink>
       </Menu.Item>
       <Menu.Item key="/1inch">
-        <NavLink to="/1inch"> Exchange</NavLink>
+        <NavLink to="/1inch">⚡ Exchange</NavLink>
       </Menu.Item>
       <Menu.Item key="onramp">
-        <NavLink to="/onramp"> Fiat </NavLink>
+        <NavLink to="/onramp">💱 Fiat </NavLink>
       </Menu.Item>
       <Menu.Item key="/erc20balance">
-        <NavLink to="/erc20balance"> Balances</NavLink>
+        <NavLink to="/erc20balance">💵 Balances</NavLink>
       </Menu.Item>
       <Menu.Item key="/erc20transfers">
-        <NavLink to="/erc20transfers"> Transfers</NavLink>
+        <NavLink to="/erc20transfers">💸 Transfers</NavLink>
       </Menu.Item>
       <Menu.Item key="/wallet">
-        <NavLink to="/wallet"> Wallet</NavLink>
+        <NavLink to="/wallet">🏧 Wallet</NavLink>
       </Menu.Item>
       <Menu.Item key="/nftbalance">
-        <NavLink to="/nftbalance"> NFT </NavLink>
+        <NavLink to="/nftbalance">🔆 NFT </NavLink>
       </Menu.Item>
       <Menu.Item key="/tokenprice">
-        <NavLink to="/tokenprice"> SWT </NavLink>
+        <NavLink to="/tokenprice">👑 SWT </NavLink>
       </Menu.Item>
     </Menu>
   );
