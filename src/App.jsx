@@ -20,7 +20,6 @@ import NativeBalance from "components/NativeBalance";
 import "./style.css";
 import QuickStart from "components/QuickStart";
 import Text from "antd/lib/typography/Text";
-import Ramper from "components/Ramper";
 import MenuItems from "./components/MenuItems";
 const { Header, Footer } = Layout;
 
@@ -108,9 +107,6 @@ const App = ({ isServerInfo }) => {
             </Route>
             <Route path="/erc20balance">
               <ERC20Balance />
-            </Route>
-            <Route path="/onramp">
-              <Ramper />
             </Route>
             <Route path="/erc20transfers">
               <ERC20Transfers />
