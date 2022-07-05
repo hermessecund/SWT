@@ -75,7 +75,7 @@ const App = ({ isServerInfo }) => {
           <div style={styles.headerRight}>
             <Chains />
             <TokenPrice
-              address="0x35dc66610123dfae53c8fe8aab75d1a64b989113"
+              address="0xbf6778EB6C17e98e6a67541ea861D53ea16BE762"
               chain="bsc"
               image="https://storage.googleapis.com/coinsniper-assets/images/kipUKl831T4GfAIkxDcKfdNEmq6hrcEgsNrcir6m.png"
               size="40px"
