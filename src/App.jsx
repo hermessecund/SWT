@@ -18,7 +18,6 @@ import { Layout, Tabs } from "antd";
 import "antd/dist/antd.css";
 import NativeBalance from "components/NativeBalance";
 import "./style.css";
-import QuickStart from "components/QuickStart";
 import Text from "antd/lib/typography/Text";
 import MenuItems from "./components/MenuItems";
 const { Header, Footer } = Layout;
@@ -86,7 +85,7 @@ const App = ({ isServerInfo }) => {
 
         <div style={styles.content}>
           <Switch>
-            <Route exact path="/QuickStart">
+            <Route exact path="/TokenPrice">
               <QuickStart isServerInfo={isServerInfo} />
             </Route>
             <Route path="/wallet">
@@ -135,7 +134,7 @@ const App = ({ isServerInfo }) => {
             rel="noopener noreferrer"
           >
             DATO
-          </a>
+          </a><br><h1>Binutecoin</h1>
         </Text>
       </Footer>
     </Layout>
