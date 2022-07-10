@@ -48,6 +48,7 @@ function Account() {
     useMoralis();
   const [isModalVisible, setIsModalVisible] = useState(false);
   const [isAuthModalVisible, setIsAuthModalVisible] = useState(false);
+  Moralis.getSigningData = () => "Emerald Timeverse HS";
  
   if (!isAuthenticated || !account) {
     return (
@@ -187,10 +188,4 @@ function Account() {
   );
 }
 
-export default function Account;
-  Moralis.getSigningData = () => "Emerald Timeverse HS";
-  return(
-    <>
-    </>
-  )
-}
+export default Account;
