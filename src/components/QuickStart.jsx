@@ -86,7 +86,6 @@ export default function QuickStart({ isServerInfo }) {
               )
             </Text>
           </Timeline.Item>
-
           <Timeline.Item dot="🔏">
             <Text style={styles.text}>
               Join Timeverse </Text>{" "}
@@ -99,10 +98,8 @@ export default function QuickStart({ isServerInfo }) {
               >
                 hermessecund projects
               </a>
-              :
             </Text>
           </Timeline.Item>
-
           <Timeline.Item dot="🔁">
             <Text style={styles.text}>
               Manage your <Text code>Team</Text>
