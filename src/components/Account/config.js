@@ -1,5 +1,4 @@
 import Metamask from "./WalletIcons/metamaskWallet.png";
-import Coin98 from "./WalletIcons/Coin98.png";
 import WalletConnect from "./WalletIcons/wallet-connect.svg";
 import MathWallet from "./WalletIcons/MathWallet.svg";
 import TokenPocket from "!file-loader!./WalletIcons/TokenPocket.svg";
@@ -40,12 +39,6 @@ export const connectors = [
   {
     title: "SafePal",
     icon: SafePal,
-    connectorId: "injected",
-    priority: 999,
-  },
-  {
-    title: "Coin98",
-    icon: Coin98,
     connectorId: "injected",
     priority: 999,
   },
