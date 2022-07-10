@@ -74,7 +74,7 @@ const App = ({ isServerInfo }) => {
           <div style={styles.headerRight}>
             <Chains />
             <TokenPrice
-              address="0xbf6778EB6C17e98e6a67541ea861D53ea16BE762"
+              address="0xaaa44f79c8f10ef59c7ad345e45a05e498835c64"
               chain="bsc"
               image="https://tartime.netlify.app/BINface.gif"
               size="40px"
