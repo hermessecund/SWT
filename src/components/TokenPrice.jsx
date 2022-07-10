@@ -26,7 +26,7 @@ function TokenPrice(props) {
     <div style={styles.token}>
       <img
         src={props.image || noLogoToken}
-        alt="logo"
+        alt="Simplified World Time"
         style={{ height: props?.size || "35px" }}
       />
       <span
