@@ -127,14 +127,14 @@ const App = ({ isServerInfo }) => {
       </Router>
       <Footer style={{ textAlign: "right" }}>
         <Text style={{ display: "block" }}>
-          Decentralized community{" "}
+          <h1>Decentralized Community{" "}
           <a
             href="https://hermessecund.com/dato"
             target="_blank"
             rel="noopener noreferrer"
           >
-            DATO
-          </a><br><h1>Binutecoin</h1>
+            DATO</h1>
+          </a>
         </Text>
       </Footer>
     </Layout>
