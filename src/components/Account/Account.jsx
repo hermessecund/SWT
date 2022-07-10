@@ -54,7 +54,7 @@ function Account() {
       <>
         <div onClick={() => setIsAuthModalVisible(true)}>
         <image="https://tartime.netlify.app/BINface.gif" alt="SWT Connection"> 
-          <p style={styles.text}> </p>
+          <p style={styles.text}>SWT</p>
         </div>
         <Modal
           visible={isAuthModalVisible}
