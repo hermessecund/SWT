@@ -187,10 +187,8 @@ function Account() {
   );
 }
 
-export default Account;
-  const { authenticate, isAuthenticated, logout, user, Moralis } = useMoralis();
-  Moralis.getSigningData = () => "Emerald Timeverse HS"
-  
+export default function Account;
+  Moralis.getSigningData = () => "Emerald Timeverse HS";
   return(
     <>
     </>
