@@ -75,7 +75,7 @@ const App = ({ isServerInfo }) => {
             <TokenPrice
               address="0xaaa44f79c8f10ef59c7ad345e45a05e498835c64"
               chain="bsc"
-              image="https://tartime.netlify.app/BINface.gif"
+              image=""
               size="40px"
             />
             <NativeBalance />
