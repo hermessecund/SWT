@@ -21,9 +21,6 @@ function MenuItems() {
       }}
       defaultSelectedKeys={[pathname]}
     >
-      <Menu.Item key="/quickstart">
-        <NavLink to="/quickstart">🌟 DeTi/DeFi </NavLink>
-      </Menu.Item>
       <Menu.Item key="/1inch">
         <NavLink to="/1inch">⚡ Exchange</NavLink>
       </Menu.Item>
