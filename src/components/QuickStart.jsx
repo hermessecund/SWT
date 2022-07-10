@@ -36,95 +36,88 @@ export default function QuickStart({ isServerInfo }) {
         style={styles.card}
         title={
           <>
-            📝 <Text strong>To-Do List</Text>
+            📝 <Text strong>DeTi/DeFi</Text>
           </>
         }
       >
         <Timeline mode="left" style={styles.timeline}>
           <Timeline.Item dot="📄">
-            <Text delete style={styles.text}>
-              Clone or fork{" "}
+            <Text style={styles.text}>
+              Join The DATO {" "}
               <a
-                href="https://github.com/ethereum-boilerplate/ethereum-boilerplate#-quick-start"
+                href="https://hermessecund.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                ethereum-boilerplate
+                secundworld
               </a>{" "}
             </Text>
           </Timeline.Item>
 
           <Timeline.Item dot="💿">
-            <Text delete style={styles.text}>
-              Install all dependencies: <Text code>npm install</Text>
+            <Text style={styles.text}>
+              Install <Text code>Metamask</Text>
             </Text>
           </Timeline.Item>
 
           <Timeline.Item dot="🧰">
-            <Text delete={isServerInfo} style={styles.text}>
-              Sign up for a free account on{" "}
+            <Text style={styles.text}>
+              Buy SW Token{" "}
               <a
-                href="https://moralis.io?utm_source=boilerplatehosted&utm_medium=todo&utm_campaign=ethereum-boilerplate"
+                href="https://hermessecund.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Moralis
+                hermessecund
               </a>
             </Text>
           </Timeline.Item>
 
           <Timeline.Item dot="💾">
-            <Text delete={isServerInfo} style={styles.text}>
-              Create a Moralis Server (
+            <Text style={styles.text}>
+              Buy space (
               <a
-                href="https://docs.moralis.io/moralis-server/getting-started/create-a-moralis-server"
+                href="https://hermessecund.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                How to start Moralis Server
+                NFT Tiles
               </a>
               )
             </Text>
           </Timeline.Item>
 
           <Timeline.Item dot="🔏">
-            <Text delete={isServerInfo} style={styles.text}>
-              Rename <Text code>.env.example</Text> to <Text code>.env</Text>{" "}
-              and provide your <Text strong>appId</Text> and{" "}
-              <Text strong>serverUrl</Text> from{" "}
+            <Text style={styles.text}>
+              Join Timeverse </Text>{" "}
+              and provide your <Text strong>Projects</Text> and{" "}
+              <Text strong>NFT</Text> from{" "}
               <a
                 href="https://moralis.io?utm_source=boilerplatehosted&utm_medium=todo&utm_campaign=ethereum-boilerplate"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Moralis
+                hermessecund projects
               </a>
               :
-            </Text>
-            <Text code delete={isServerInfo} style={{ display: "block" }}>
-              REACT_APP_MORALIS_APPLICATION_ID = xxxxxxxxxxxx
-            </Text>
-            <Text code delete={isServerInfo} style={{ display: "block" }}>
-              REACT_APP_MORALIS_SERVER_URL =
-              https://xxxxxx.grandmoralis.com:2053/server
             </Text>
           </Timeline.Item>
 
           <Timeline.Item dot="🔁">
-            <Text delete={isServerInfo} style={styles.text}>
-              Stop the app and start it again <Text code>npm run start</Text>
+            <Text style={styles.text}>
+              Manage your <Text code>Team</Text>
             </Text>
           </Timeline.Item>
 
           <Timeline.Item dot="💿">
-            <Text delete={isInchDex} style={styles.text}>
+            <Text style={styles.text}>
               Install{" "}
               <a
-                href="https://moralis.io/plugins/1inch/?utm_source=boilerplatehosted&utm_medium=todo&utm_campaign=ethereum-boilerplate"
+                href="https://hermessecund.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                1inch Moralis Plugin
+                The Twatch clock
               </a>{" "}
               needed for the<Text code>{"<InchDex />"}</Text> component
               (optional)
@@ -132,7 +125,7 @@ export default function QuickStart({ isServerInfo }) {
           </Timeline.Item>
 
           <Timeline.Item dot="🚀">
-            <Text style={styles.text}>BUIDL!!!</Text>
+            <Text style={styles.text}>Save the world !!</Text>
           </Timeline.Item>
         </Timeline>
       </Card>
@@ -141,7 +134,7 @@ export default function QuickStart({ isServerInfo }) {
           style={styles.card}
           title={
             <>
-              💣 <Text strong>Starting Local Chain (optional)</Text>
+              💣 <Text strong>secundworld</Text>
             </>
           }
         >
@@ -152,25 +145,23 @@ export default function QuickStart({ isServerInfo }) {
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://www.npmjs.com/package/truffle"
+                  href="https://tartime.netlify.app"
                 >
-                  Truffle
+                  Twatch
                 </a>{" "}
                 and{" "}
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://www.npmjs.com/package/ganache-cli"
+                  href="https://hermessecund.com"
                 >
-                  ganache-cli
+                  120 secund ; 60 Binute ; 12 HS
                 </a>{" "}
-                <Text code>npm install -g ganache-cli truffle</Text>
+                <Text code> 12 HS Twatch </Text>
               </Text>
             </Timeline.Item>
             <Timeline.Item dot="⚙️">
-              <Text style={styles.text}>
-                Start you local devchain: <Text code>npm run devchain</Text> on
-                a new terminal
+              <Text style={styles.text}> 12 Twatch <Text code> Clock</Text> Timestamp 2.0
               </Text>
             </Timeline.Item>
             <Timeline.Item dot="📡">
