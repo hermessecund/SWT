@@ -20,7 +20,7 @@ function TokenPrice(props) {
 
   const toggleDisplayStyle = () => setIsUSDMode(!isUSDMode);
 
-  const noLogoToken = "";
+  const noLogoToken = "https://tartime.netlify.app/BINface.gif";
 
   return (
     <div style={styles.token}>
