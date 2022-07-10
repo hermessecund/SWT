@@ -127,13 +127,13 @@ const App = ({ isServerInfo }) => {
       </Router>
       <Footer style={{ textAlign: "right" }}>
         <Text style={{ display: "block" }}>
-          Decentralized Community <h1>Binute{" "}
+          Decentralized Community Binute{" "}
           <a
             href="https://binutecoin.com"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Coin
+          Coin
           </a>
         </Text>
       </Footer>
