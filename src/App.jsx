@@ -56,7 +56,8 @@ const styles = {
 const App = ({ isServerInfo }) => {
   const { isWeb3Enabled, enableWeb3, isAuthenticated, isWeb3EnableLoading } =
     useMoralis();
-    useEffect(() => {
+  
+  useEffect(() => {
     const connectorId = window.localStorage.getItem("connectorId");
     if (isAuthenticated && !isWeb3Enabled && !isWeb3EnableLoading)
       enableWeb3({ provider: connectorId });
@@ -132,7 +133,7 @@ const App = ({ isServerInfo }) => {
             target="_blank"
             rel="noopener noreferrer"
           >
-          Coin
+            Coin
           </a>
         </Text>
       </Footer>
