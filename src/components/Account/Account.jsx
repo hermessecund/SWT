@@ -48,12 +48,15 @@ function Account() {
     useMoralis();
   const [isModalVisible, setIsModalVisible] = useState(false);
   const [isAuthModalVisible, setIsAuthModalVisible] = useState(false);
-  Moralis.authenticate({signingMessage:"My custom message"})
-   
+  useMoralis.authenticate({signingMessage:"My custom message"});
+  
   if (!isAuthenticated || !account) {
     return (
       <>
-        <div image="https://tartime.netlify.app/BINface.gif" alt="SWT Connection" onClick={() => setIsAuthModalVisible(true)}>
+        <div 
+              image="https://tartime.netlify.app/BINface.gif" 
+              alt="SWT Connection" 
+              onClick={() => setIsAuthModalVisible(true)}>
           <p style={styles.text}>SWT</p>
         </div>
         <Modal
