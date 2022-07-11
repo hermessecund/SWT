@@ -48,7 +48,6 @@ function Account() {
     useMoralis();
   const [isModalVisible, setIsModalVisible] = useState(false);
   const [isAuthModalVisible, setIsAuthModalVisible] = useState(false);
-  useMoralis.authenticate({ signingMessage: "My custom message" });
 
   if (!isAuthenticated || !account) {
     return (
