@@ -52,8 +52,7 @@ function Account() {
   if (!isAuthenticated || !account) {
     return (
       <>
-        <div onClick={() => setIsAuthModalVisible(true)}
-        >
+        <div onClick={() => setIsAuthModalVisible(true)}>
           <p style={styles.text}>SWT</p>
         </div>
         <Modal
