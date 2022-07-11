@@ -37,7 +37,7 @@ function MenuItems() {
         <NavLink to="/nftbalance">🔆 NFT </NavLink>
       </Menu.Item>
       <Menu.Item key="/tokenprice">
-        <NavLink to="/tokenprice">👑 SWT </NavLink>
+        <NavLink to="/tokenprice">👑 Token </NavLink>
       </Menu.Item>
     </Menu>
   );
