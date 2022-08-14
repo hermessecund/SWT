@@ -73,8 +73,8 @@ const App = ({ isServerInfo }) => {
           <div style={styles.headerRight}>
             <Chains />
             <TokenPrice
-              address="0xaaa44f79c8f10ef59c7ad345e45a05e498835c64"
-              chain="bsc"
+              address="0xBA7B0E9223a5c8803c0F186662aD8E0A2a5C152b"
+              chain="cro"
               image=""
               size="40px"
             />
