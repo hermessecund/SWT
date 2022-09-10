@@ -74,7 +74,7 @@ const App = ({ isServerInfo }) => {
             <Chains />
             <TokenPrice
               address="0xBA7B0E9223a5c8803c0F186662aD8E0A2a5C152b"
-              chain="cro"
+              chain="bnb"
               image=""
               size="40px"
             />
